@@ -4,7 +4,7 @@ gemspec
 
 require File.expand_path 'spec/support/detect_rails_version', File.dirname(__FILE__)
 
-rails_version = detect_rails_version
+rails_version = '5.0.0.rc1'
 gem 'rails', rails_version
 
 jquery_ui_rails_version = rails_version > "4" ? "~> 5.0" : "~> 4.0"
